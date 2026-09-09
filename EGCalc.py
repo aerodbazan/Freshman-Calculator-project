@@ -13,7 +13,7 @@ def calculate_force():
             mass = float(input("Enter mass in kg: "))
             acceleration = float(input("Enter acceleration in m/s^2: "))
             force = mass * acceleration
-            print(f"\nThe force is {force} N\n")
+            print(f"\nThe force is {force:.2f} N\n")
         except:
             print("\nInvalid input, please enter numeric values.\n")
 
